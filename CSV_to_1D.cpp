@@ -30,7 +30,7 @@ int main(void)
 {
    //FILE* l_fptr = fopen("MapData.csv", "r");
   string line;
-  double Data[9] = { 0x00 };
+  double Data[][9] = { 0x00 };
   ifstream mapfile ("MapData.csv");
   if (mapfile.is_open())
   {
