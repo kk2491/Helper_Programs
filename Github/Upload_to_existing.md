@@ -30,16 +30,16 @@ Check the git status
 
 
 
-    $ git pull origin master 
+    user@lenovo$ git pull origin master 
     From gitlab.com:repo/tools
     * branch            master     -> FETCH_HEAD
     Already up-to-date.
 
     $ git push origin master 
-Counting objects: 30, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (28/28), done.
-Writing objects: 100% (30/30), 71.37 KiB | 0 bytes/s, done.
-Total 30 (delta 3), reused 0 (delta 0)
-To git@gitlab.com:repo/tools.git
-   768d934..a64b488  master -> master
+    Counting objects: 30, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (28/28), done.
+    Writing objects: 100% (30/30), 71.37 KiB | 0 bytes/s, done.
+    Total 30 (delta 3), reused 0 (delta 0)
+    To git@gitlab.com:repo/tools.git
+    768d934..a64b488  master -> master
