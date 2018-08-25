@@ -1,4 +1,5 @@
 Check the git status
+    
     user@lenovo$ git status
     On branch master
     Your branch is up-to-date with 'origin/master'.
